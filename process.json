@@ -5,7 +5,7 @@
 			"instances"						: 1,
 			"exec_mode"						: "fork",
 			"max_memory_restart"			: "512M",
-			"script"						: "node ./bin/www",
+			"script"						: "./bin/www",
 			"watch"							: false,
 			"merge_logs"					: true,
 			"cwd"							: "/home/nodejs/app-apis.velomi.com",
