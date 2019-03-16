@@ -1,0 +1,43 @@
+{
+  "name": "apis-velomi-backend-for-mijia-qicycle",
+  "version": "1.0.0",
+  "description": "Simulated backend in NodeJS of app-apis.velomi.com APIs used by Mijia Qicycle apps.It allows to update the Qicycle via OTA.",
+  "private": true,
+  "scripts": {
+    "start": "cross-env node ./bin/www",
+    "debug": "cross-env DEBUG=true nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsgpino/APIs-Velomi-Backend-for-Mijia-Qicycle"
+  },
+  "keywords": [
+    "app",
+    "api",
+    "apis",
+    "nodejs",
+    "velomi",
+    "mijia",
+    "qicycle",
+    "backend",
+    "ota",
+    "proxy"
+  ],
+  "author": "Francisco Gómez Pino",
+  "bugs": {
+    "url": "https://github.com/fsgpino/APIs-Velomi-Backend-for-Mijia-Qicycle/issues"
+  },
+  "homepage": "https://github.com/fsgpino/APIs-Velomi-Backend-for-Mijia-Qicycle/blob/master/README.md",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cross-env": "^5.2.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-http-proxy": "^1.5.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
