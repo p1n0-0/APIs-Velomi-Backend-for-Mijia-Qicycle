@@ -43,7 +43,7 @@ router.post('/ota.api', function(req, res, next) {
     files.push(mc17); // Downgrade to mc17 from mc19
   }
 
-  if (order === 1) { // None of the above options? Set MC15
+  if (mcHardware === 5 && order === 1) { // None of the above options? Set MC15
     mc15.sort = order; // Sort
     files.push(mc15); // Downgrade to mc15 from ????
   }
