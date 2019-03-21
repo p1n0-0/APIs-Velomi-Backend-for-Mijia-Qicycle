@@ -1,6 +1,6 @@
 {
   "name": "apis-velomi-backend-for-mijia-qicycle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simulated backend in NodeJS of app-apis.velomi.com APIs used by Mijia Qicycle apps.It allows to update the Qicycle via OTA.",
   "private": true,
   "scripts": {

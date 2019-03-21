@@ -65,3 +65,6 @@ typings/
 
 # JetBrains Project Files
 .idea
+
+# npm lock file
+package-lock.json
